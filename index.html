@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+    type="application/javascript"></script>
+
+    <script src="./index.js"></script>
+   
+    <div class="wrapper">
+      <button onclick="relo()">Reload Page</button>
+      <h1>Blockchain Demo on Etherium</h1>
+      
+      <div id="metamask">
+
+      </div>
+      <div class="lastbalance">
+        <div class="lb">
+          <p>Previous Value : <p>
+        </div>
+        <div id="xbalance"></div>
+      </div>
+      <div class="newbalance">
+        <input id="xvalue" type="text" />
+        <input id="Button1" type="button" onclick="setvalue()" value="Add to Blockchain" />
+      </div>
+
+    </div>
+  
+  </body>
+</html>
